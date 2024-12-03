@@ -134,3 +134,7 @@ Example
 ./VisualizePredictions --base_path "/path/to/processed/data" --best_model_path "best_model.pt"
 
 ```
+<p align="center">
+  <img src="images/jupiter_pred.png" width="300" />
+  <img src="images/moon_pred.png" width="300" />
+</p>
