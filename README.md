@@ -99,15 +99,14 @@ Run the main application to train the model:
 ```
 
 Available Options
-
-    --train_ratio <float>: Training data ratio (default: 0.7).
-    --val_ratio <float>: Validation data ratio (default: 0.15).
-    --batch_size <int>: Batch size (default: 8).
-    --num_workers <int>: Number of worker threads (default: 2).
-    --num_epochs <int>: Number of training epochs (default: 10).
-    --learning_rate <float>: Learning rate (default: 1e-4).
-    --base_path <string>: Path to the processed dataset.
-    --best_model_path <string>: Path to save the best model (default: best_model.pt).
+- --train_ratio <float>: Training data ratio (default: 0.7).
+- --val_ratio <float>: Validation data ratio (default: 0.15).
+- --batch_size <int>: Batch size (default: 8).
+- --num_workers <int>: Number of worker threads (default: 2).
+- --num_epochs <int>: Number of training epochs (default: 10).
+- --learning_rate <float>: Learning rate (default: 1e-4).
+- --base_path <string>: Path to the processed dataset.
+- --best_model_path <string>: Path to save the best model (default: best_model.pt).
 
 Example
 ```
@@ -123,11 +122,10 @@ After training, you can visualize the model's predictions on the test set:
 ```
 
 Available Options
-
-    --train_ratio <float>: Training data ratio used during training (default: 0.7).
-    --val_ratio <float>: Validation data ratio used during training (default: 0.15).
-    --base_path <string>: Path to the processed dataset.
-    --best_model_path <string>: Path to save the best model (default: best_model.pt).
+- --train_ratio <float>: Training data ratio used during training (default: 0.7).
+- --val_ratio <float>: Validation data ratio used during training (default: 0.15).
+- --base_path <string>: Path to the processed dataset.
+- --best_model_path <string>: Path to save the best model (default: best_model.pt).
 
 Example
 ```
