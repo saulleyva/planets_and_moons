@@ -25,19 +25,19 @@ The goal of this project is to:
 ## Project Structure
 
 ```plaintext
-.
-├── scripts
-│   ├── process_images.cpp
-│   └── visualize_predictions.cpp
-├── src
-│   ├── main.cpp
-│   ├── dataset.h
-│   ├── model.h
-│   ├── model.cpp
-│   ├── utils.h
-│   └── utils.cpp
-├── CMakeLists.txt
-└── README.md
+📂
+├── 📂 scripts
+│   ├── 📄 process_images.cpp
+│   └── 📄 visualize_predictions.cpp
+├── 📂 src
+│   ├── 📄 main.cpp
+│   ├── 📄 dataset.h
+│   ├── 📄 model.h
+│   ├── 📄 model.cpp
+│   ├── 📄 utils.h
+│   └── 📄 utils.cpp
+├── 📄 CMakeLists.txt
+└── 📄 README.md
 `````
 - scripts/: Contains utility scripts for processing images and visualizing model predictions.
 - src/: Contains the main application source code and related headers.
