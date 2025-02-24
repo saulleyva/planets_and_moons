@@ -25,11 +25,11 @@ The goal of this project is to:
 ## Project Structure
 
 ```plaintext
-📂
-├── 📂 scripts
+📂 planets_and_moons/
+├── 📂 scripts/
 │   ├── 📄 process_images.cpp
 │   └── 📄 visualize_predictions.cpp
-├── 📂 src
+├── 📂 src/
 │   ├── 📄 main.cpp
 │   ├── 📄 dataset.h
 │   ├── 📄 model.h
